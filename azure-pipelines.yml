@@ -12,9 +12,9 @@ pool:
   - agent.name -equals UCMPOC
 
 steps:
-- task: CmdLine@2
+- task: Check command line
   inputs:
-    script: 'echo Hello world'
+    script: 'echo It is working'
 - task: Maven@3
   inputs:
     mavenPomFile: 'pom.xml'

@@ -12,6 +12,9 @@ pool:
   - agent.name -equals UCMPOC
 
 steps:
+- task: CmdLine@2
+  inputs:
+    script: 'echo Hello world'
 - task: Maven@3
   inputs:
     mavenPomFile: 'pom.xml'
@@ -22,3 +25,9 @@ steps:
     publishJUnitResults: true
     testResultsFiles: '**/surefire-reports/TEST-*.xml'
     goals: 'package'
+- task: CmdLine@2
+  inputs:
+    script: 'E:\UCM\Oracle\Middleware\Oracle_Home\wlserver\server\bin\setWLSEnv.cmd'
+- task: CmdLine@2
+  inputs:
+    script: 'java weblogic.Deployer -adminurl t3://192.168.31.57:7001 -username weblogic -password poc#2021 -usenonexclusivelock -deploy -upload  C:\agent\_work\2\s\target\MavenTestApp-1.0-SNAPSHOT.ear'

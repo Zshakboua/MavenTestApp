@@ -12,7 +12,7 @@ pool:
   - agent.name -equals UCMPOC
 
 steps:
-- task: Check command line
+- task: CmdLine@2
   inputs:
     script: 'echo It is working'
 - task: Maven@3

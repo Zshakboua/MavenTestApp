@@ -17,189 +17,189 @@
     <dependency>
       <groupId>com.oracle.adf.library</groupId>
       <artifactId>JSP-Runtime</artifactId>
-      <version>12.2.1-4-0</version>
+      <version>12.2.1-0-0</version>
       <type>pom</type>
       <scope>provided</scope>
     </dependency>
     <dependency>
       <groupId>com.oracle.adf.library</groupId>
       <artifactId>JSF</artifactId>
-      <version>12.2.1-4-0</version>
+      <version>12.2.1-0-0</version>
       <type>pom</type>
       <scope>provided</scope>
     </dependency>
     <dependency>
       <groupId>com.oracle.adf.library</groupId>
       <artifactId>JSTL</artifactId>
-      <version>12.2.1-4-0</version>
+      <version>12.2.1-0-0</version>
       <type>pom</type>
       <scope>provided</scope>
     </dependency>
     <dependency>
       <groupId>com.oracle.adf.library</groupId>
       <artifactId>ADF-Page-Flow-Runtime</artifactId>
-      <version>12.2.1-4-0</version>
+      <version>12.2.1-0-0</version>
       <type>pom</type>
       <scope>provided</scope>
     </dependency>
     <dependency>
       <groupId>com.oracle.adf.library</groupId>
       <artifactId>ADF-Controller-Runtime</artifactId>
-      <version>12.2.1-4-0</version>
+      <version>12.2.1-0-0</version>
       <type>pom</type>
       <scope>provided</scope>
     </dependency>
     <dependency>
       <groupId>com.oracle.adf.library</groupId>
       <artifactId>ADF-Controller-Schema</artifactId>
-      <version>12.2.1-4-0</version>
+      <version>12.2.1-0-0</version>
       <type>pom</type>
       <scope>provided</scope>
     </dependency>
     <dependency>
       <groupId>com.oracle.adf.library</groupId>
       <artifactId>ADF-Faces-Runtime-11</artifactId>
-      <version>12.2.1-4-0</version>
+      <version>12.2.1-0-0</version>
       <type>pom</type>
       <scope>provided</scope>
     </dependency>
     <dependency>
       <groupId>com.oracle.adf.library</groupId>
       <artifactId>ADF-Common-Runtime</artifactId>
-      <version>12.2.1-4-0</version>
+      <version>12.2.1-0-0</version>
       <type>pom</type>
       <scope>provided</scope>
     </dependency>
     <dependency>
       <groupId>com.oracle.adf.library</groupId>
       <artifactId>ADF-Web-Runtime</artifactId>
-      <version>12.2.1-4-0</version>
+      <version>12.2.1-0-0</version>
       <type>pom</type>
       <scope>provided</scope>
     </dependency>
     <dependency>
       <groupId>com.oracle.adf.library</groupId>
       <artifactId>MDS-Runtime</artifactId>
-      <version>12.2.1-4-0</version>
+      <version>12.2.1-0-0</version>
       <type>pom</type>
       <scope>provided</scope>
     </dependency>
     <dependency>
       <groupId>com.oracle.adf.library</groupId>
       <artifactId>MDS-Runtime-Dependencies</artifactId>
-      <version>12.2.1-4-0</version>
+      <version>12.2.1-0-0</version>
       <type>pom</type>
       <scope>provided</scope>
     </dependency>
     <dependency>
       <groupId>com.oracle.adf.library</groupId>
       <artifactId>Commons-Beanutils</artifactId>
-      <version>12.2.1-4-0</version>
+      <version>12.2.1-0-0</version>
       <type>pom</type>
       <scope>compile</scope>
     </dependency>
     <dependency>
       <groupId>com.oracle.adf.library</groupId>
       <artifactId>Commons-Logging</artifactId>
-      <version>12.2.1-4-0</version>
+      <version>12.2.1-0-0</version>
       <type>pom</type>
       <scope>compile</scope>
     </dependency>
     <dependency>
       <groupId>com.oracle.adf.library</groupId>
       <artifactId>Commons-Collections</artifactId>
-      <version>12.2.1-4-0</version>
+      <version>12.2.1-0-0</version>
       <type>pom</type>
       <scope>compile</scope>
     </dependency>
     <dependency>
       <groupId>com.oracle.adf.library</groupId>
       <artifactId>Apache-Http-Components</artifactId>
-      <version>12.2.1-4-0</version>
+      <version>12.2.1-0-0</version>
       <type>pom</type>
       <scope>provided</scope>
     </dependency>
     <dependency>
       <groupId>com.oracle.adf.library</groupId>
       <artifactId>ADF-DVT-Faces-Runtime</artifactId>
-      <version>12.2.1-4-0</version>
+      <version>12.2.1-0-0</version>
       <type>pom</type>
       <scope>provided</scope>
     </dependency>
     <dependency>
       <groupId>com.oracle.adf.library</groupId>
       <artifactId>ADF-DVT-Faces-Databinding-Runtime</artifactId>
-      <version>12.2.1-4-0</version>
+      <version>12.2.1-0-0</version>
       <type>pom</type>
       <scope>compile</scope>
     </dependency>
     <dependency>
       <groupId>com.oracle.adf.library</groupId>
       <artifactId>ADF-DVT-Faces-Databinding-MDS-Runtime</artifactId>
-      <version>12.2.1-4-0</version>
+      <version>12.2.1-0-0</version>
       <type>pom</type>
       <scope>provided</scope>
     </dependency>
     <dependency>
       <groupId>com.oracle.adf.library</groupId>
       <artifactId>Oracle-JEWT</artifactId>
-      <version>12.2.1-4-0</version>
+      <version>12.2.1-0-0</version>
       <type>pom</type>
       <scope>provided</scope>
     </dependency>
     <dependency>
       <groupId>com.oracle.adf.library</groupId>
       <artifactId>ADF-Faces-Databinding-Runtime</artifactId>
-      <version>12.2.1-4-0</version>
+      <version>12.2.1-0-0</version>
       <type>pom</type>
       <scope>compile</scope>
     </dependency>
     <dependency>
       <groupId>com.oracle.adf.library</groupId>
       <artifactId>Oracle-XML-Parser-v2</artifactId>
-      <version>12.2.1-4-0</version>
+      <version>12.2.1-0-0</version>
       <type>pom</type>
       <scope>provided</scope>
     </dependency>
     <dependency>
       <groupId>com.oracle.adf.library</groupId>
       <artifactId>JDeveloper-Runtime</artifactId>
-      <version>12.2.1-4-0</version>
+      <version>12.2.1-0-0</version>
       <type>pom</type>
       <scope>provided</scope>
     </dependency>
     <dependency>
       <groupId>com.oracle.adf.library</groupId>
       <artifactId>ADF-Model-Runtime</artifactId>
-      <version>12.2.1-4-0</version>
+      <version>12.2.1-0-0</version>
       <type>pom</type>
       <scope>provided</scope>
     </dependency>
     <dependency>
       <groupId>com.oracle.adf.library</groupId>
       <artifactId>BC4J-Runtime</artifactId>
-      <version>12.2.1-4-0</version>
+      <version>12.2.1-0-0</version>
       <type>pom</type>
       <scope>provided</scope>
     </dependency>
     <dependency>
       <groupId>com.oracle.adf.library</groupId>
       <artifactId>Oracle-JDBC</artifactId>
-      <version>12.2.1-4-0</version>
+      <version>12.2.1-0-0</version>
       <type>pom</type>
       <scope>provided</scope>
     </dependency>
     <dependency>
       <groupId>com.oracle.adf.library</groupId>
       <artifactId>Connection-Manager</artifactId>
-      <version>12.2.1-4-0</version>
+      <version>12.2.1-0-0</version>
       <type>pom</type>
       <scope>provided</scope>
     </dependency>
     <dependency>
       <groupId>com.oracle.adf.library</groupId>
       <artifactId>BC4J-Oracle-Domains</artifactId>
-      <version>12.2.1-4-0</version>
+      <version>12.2.1-0-0</version>
       <type>pom</type>
       <scope>provided</scope>
     </dependency>
@@ -229,7 +229,7 @@
       <plugin>
         <groupId>com.oracle.adf.plugin</groupId>
         <artifactId>ojmake</artifactId>
-        <version>12.2.1-4-0</version>
+        <version>12.2.1-0-0</version>
         <configuration>
           <ojmake>
             ${oracleHome}/jdeveloper/jdev/bin/ojmake.exe
@@ -250,7 +250,7 @@
       <plugin>
         <groupId>com.oracle.adf.plugin</groupId>
         <artifactId>ojdeploy</artifactId>
-        <version>12.2.1-4-0</version>
+        <version>12.2.1-0-0</version>
         <configuration>
           <ojdeploy>
             ${oracleHome}/jdeveloper/jdev/bin/ojdeploy.exe
@@ -282,7 +282,7 @@
   <parent>
     <groupId>com.oracle.adf</groupId>
     <artifactId>adf-parent</artifactId>
-    <version>12.2.1-4-0</version>
+    <version>12.2.1-0-0</version>
     <relativePath></relativePath>
   </parent>
 </project>

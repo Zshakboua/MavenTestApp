@@ -37,7 +37,7 @@
       <plugin>
         <groupId>com.oracle.adf.plugin</groupId>
         <artifactId>ojmake</artifactId>
-        <version>12.2.1-4-0</version>
+        <version>12.2.1-0-0</version>
         <configuration>
           <ojmake>            ${oracleHome}/jdeveloper/jdev/bin/ojmake.exe          </ojmake>
           <files>            ${basedir}/MavenTestApp.jws          </files>
@@ -54,7 +54,7 @@
 	  <plugin>
         <groupId>com.oracle.adf.plugin</groupId>
         <artifactId>ojdeploy</artifactId>
-        <version>12.2.1-4-0</version>
+        <version>12.2.1-0-0</version>
         <configuration>
           <ojdeploy>            ${oracleHome}/jdeveloper/jdev/bin/ojdeploy.exe          </ojdeploy>
           <workspace>            ${basedir}/MavenTestApp.jws          </workspace>
@@ -73,7 +73,7 @@
    <plugin> 
       <groupId>com.oracle.weblogic</groupId> 
       <artifactId>weblogic-maven-plugin</artifactId> 
-      <version>12.2.1-4-0</version> 
+      <version>12.2.1-0-0</version> 
       <configuration> 
 	 <!-- <adminurl>t3://192.168.31.109:7101</adminurl> -->
         <adminurl>t3://127.0.0.1:7101</adminurl> 	  
@@ -137,7 +137,7 @@
   <parent>
     <groupId>com.oracle.adf</groupId>
     <artifactId>adf-parent</artifactId>
-    <version>12.2.1-4-0</version>
+    <version>12.2.1-0-0</version>
     <relativePath></relativePath>
   </parent>
   <dependencies>

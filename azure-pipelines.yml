@@ -17,5 +17,5 @@ steps:
   displayName: Deploy on Weblogic
   inputs:
     script: |
-      echo %PATH% 
-      java weblogic.Deployer -adminurl t3://192.168.31.57:7001 -username weblogic -password poc#2021 -usenonexclusivelock -deploy -upload  C:\agent\_work\2\s\target\MavenTestApp-1.0-SNAPSHOT.ear
+      E:\UCM\Oracle\Middleware\Oracle_Home\wlserver\server\bin\setWLSEnv.cmd;
+      java weblogic.Deployer -adminurl t3://192.168.31.57:7001 -username weblogic -password poc#2021 -usenonexclusivelock -deploy -upload  C:\agent\_work\2\s\target\MavenTestApp-1.0-SNAPSHOT.ear;

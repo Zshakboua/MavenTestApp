@@ -28,4 +28,4 @@ steps:
   inputs:
     script: |
       call E:\UCM\Oracle\Middleware\Oracle_Home\wlserver\server\bin\setWLSEnv.cmd;
-      java weblogic.Deployer -adminurl t3://192.168.31.57:7001 -username weblogic -password poc#2021 -usenonexclusivelock -deploy -upload  C:\agent\_work\2\s\target\MavenTestApp-1.0-SNAPSHOT.ear
+      java weblogic.Deployer -adminurl t3://192.168.31.57:7001 -username weblogic -password poc#2021 -usenonexclusivelock -redeploy -source  C:\agent\_work\2\s\target\MavenTestApp-1.0-SNAPSHOT.ear -name MavenTestApp-1.0-SNAPSHOT > C:\agent\cmd_output.txt

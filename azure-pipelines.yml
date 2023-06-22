@@ -12,13 +12,6 @@ pool:
   - agent.name -equals UCMPOC
 
 steps:      
-- task: CmdLine@2
-  displayName: Set ORACLE_HOME & PATH
-  inputs:
-    script: |
-      set ORACLE_HOME=C:\Oracle\Middleware\Oracle_Home;
-      set PATH=%PATH%;%ORACLE_HOME%
-      
 - task: Maven@3
   inputs:
     mavenPomFile: 'pom.xml'
